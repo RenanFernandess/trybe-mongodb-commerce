@@ -1,4 +1,4 @@
-db.produtos.findOne({
+db.produtos.find({
   $or: [
     { curtidas: 36 },
     { vendidos: 85 },
